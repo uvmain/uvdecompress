@@ -1,5 +1,5 @@
 {
-  "name": "uvdecompress",
+  "name": "decompress-baron",
   "type": "module",
   "version": "1.0.1",
   "description": "decompress gzip, zip and tar.gz files",
@@ -12,7 +12,7 @@
     }
   },
   "gitHub": {
-    "repository": "https://github.com/uvmain/uvdecompress"
+    "repository": "https://github.com/uvmain/decompress-baron"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
