@@ -1,4 +1,4 @@
-# uvdc
+# uvdecompress
 
 Decompress **gzip**, **tar**, **tar.gz**, and **zip** archives in Node.js.
 
@@ -7,14 +7,14 @@ Fully typed — ships with `.d.ts` declarations out of the box.
 ## Install
 
 ```bash
-npm install uvdc
+npm install uvdecompress
 ```
 
 ## Usage
 
 ```ts
 import { readFileSync } from 'node:fs'
-import { decompress } from 'uvdc'
+import { decompress } from 'uvdecompress'
 
 const buffer = readFileSync('archive.tar.gz')
 const files = await decompress(buffer)
@@ -27,7 +27,7 @@ for (const file of files) {
 You can also pass a file path directly instead of a `Buffer`:
 
 ```ts
-import { decompress } from 'uvdc'
+import { decompress } from 'uvdecompress'
 
 const files = await decompress('./archive.tar.gz')
 ```
@@ -53,7 +53,7 @@ const files = await decompress(buffer, {
 A default export is also available:
 
 ```ts
-import decompress from 'uvdc'
+import decompress from 'uvdecompress'
 ```
 
 ## API

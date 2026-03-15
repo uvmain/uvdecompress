@@ -1,7 +1,7 @@
 {
   "name": "uvdecompress",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "decompress gzip, zip and tar.gz files",
   "author": "",
   "license": "ISC",
