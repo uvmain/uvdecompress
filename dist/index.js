@@ -92,7 +92,6 @@ export async function decompress(input, options) {
         files = await decompressTar(buffer, false);
     }
     else if (await isGzippedTar(buffer)) {
-        // type === "gzip" — wraps a tar archive (tar.gz)
         files = await decompressTar(buffer, true);
     }
     else {
